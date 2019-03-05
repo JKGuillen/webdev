@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Josh's Top 5</title>
+      <table>
+        <caption>The Top 5</caption>
+          <thead>
+              <tr>
+                  <th colspan="8">Games of the week!</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>Game Name</td>
+                  <td>Genre</td>
+                  <td>Release Date</td>
+                  <td>Game Score</td>
+                  <td>Developer</td>
+              </tr>
+              <tr>
+                  <td>Apex Legends</td>
+                  <td>FPS, BR</td>
+                  <td>February 4, 2019</td>
+                  <td>9.7</td>
+                  <td>Respawn Entertainment</td>
+              </tr>
+              <tr>
+                  <td>Tom Clancy's The Division 2</td>
+                  <td>ARPG</td>
+                  <td>March 15, 2019</td>
+                  <td>8.9</td>
+                  <td>Massive Entertainment,</td>
+              </tr>
+              <tr>
+                  <td>Anthem</td>
+                  <td>ARPG</td>
+                  <td>February 22, 2019</td>
+                  <td>8.2</td>
+                  <td>BioWare</td>
+              </tr>
+              <tr>
+                  <td>Devil May Cry 5</td>
+                  <td>Hack&Slash</td>
+                  <td>March 8, 2019</td>
+                  <td>9.2</td>
+                  <td>Capcom</td>
+              </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th colspan="5">These are the top games for the week! Fill out the form below to input your thoughts!</th>
+            </tr>
+          </tfoot>
+      </table>
+      <p>Fill out the form below for game of the week!</p>
+        <form action="game_form" method="get" class="form">
+        <div class="form-example">
+          <label for="name">Enter Game Name: </label>
+          <input type="text" name="name" id="game_name" required>
+        </div>
+        <div class="form">
+          <label for="email">Enter Genre: </label>
+          <input type="email" name="email" id="game_genre" required>
+        </div>
+        <div class="form">
+          <label for="name">Enter Release Date: </label>
+          <input type="date" name="address" id="release_date" required>
+        </div>
+        <div class="form">
+          <label for="name">Enter Developer: </label>
+          <input type="text" name="Developer" id="Developer" required>
+        </div>
+        <div class="form">
+          <label for="name">Enter Game Score: </label>
+          <input type="number" name="Score" id="Score" required>
+        </div>
+      </form>
+  </body>
+</html>
